@@ -1,95 +1,38 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+'use client'
+import { useState } from "react";
+
+import Navbar from "./components/Navbar";
+
 
 export default function Home() {
+  
+  
+  
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div>
+    <Navbar props="Home"/>
+    <div>
+
+    </div>
+    <div >
+        <div className="card m-5 p-5" >
+        <div className="row g-0">
+            <div className="col-md-8">
+            <div className="card-body m-md-5">
+                <h5 className="card-title fw-bolder fs-1">Hello my name is <span className="fst-italic">Chaitrali Shinde</span></h5>
+                <br/>
+                <p className="card-text text-white-50" >
+                I am a Competitive programmer with over 50 contests and has secured rankings in the top 5% medium division contests. Also a hackathon enthusiasts. Coming from a tier 2 college, I have made project achieving top 2% score among college peers. I have skills in software engineering, communication, and quick learning.  
+                </p>
+                <a href="/About" >More</a>
+            </div>
+            </div>
+            <div className="col-md-4">
+            <img src="profile.jpg" width={500} className="img-fluid px-4 border border-5 border-top-0 border-bottom-0" alt="..." />
+            </div>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+        </div>
+    </div>
+    </div>
   );
 }
