@@ -1,0 +1,57 @@
+
+.Temp:hover {
+    border-color: rgba(228, 233, 132);
+    box-shadow:
+      0 0 30px 10px #9c9c5c,  /* inner white */
+      0 0 80px 30px rgb(21, 72, 76), /* outer cyan */
+      0 0 60px 20px rgb(157, 5, 5); /* middle magenta */
+
+}
+@media only screen and (min-width: 768px){
+
+.Card:nth-of-type(odd){
+    flex-direction: row-reverse;
+}
+}
+
+@-webkit-keyframes progress {
+    0% { width: 0; }
+ }
+@-moz-keyframes progress {
+    0% { width: 0; }
+}
+@keyframes progress {
+    0% { width: 0; }
+}
+
+ 
+
+.progress > div { 
+    -webkit-animation: progress 2s;
+    -moz-animation: progress 2s;
+    animation: progress 2s;
+  }
+
+.glow {
+    background-color: rgb(189, 189, 109);
+
+    box-shadow:
+      0 0 30px 10px #9c9c5c,  /* inner white */
+      0 0 60px 30px rgb(21, 72, 76), /* outer cyan */
+      0 0 50px 20px rgb(157, 5, 5); /* middle magenta */
+  }
+  .glow:hover{
+
+    background-color: rgb(18, 18, 10);
+  }
+
+.imp{
+    color: rgb(242, 242, 85);
+    font-family: cursive;
+    font-size: larger;
+}
+.imp2{
+    color:rgba(228, 233, 132,0.8);
+    font-weight: bolder;
+    
+}

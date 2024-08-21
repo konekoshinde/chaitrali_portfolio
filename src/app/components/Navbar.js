@@ -3,11 +3,11 @@ import { IoChatbubbles } from "react-icons/io5";
 import { FaHome } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 import { FaFolderOpen } from "react-icons/fa6";
-
+import "../styles/G.css"
 export default function Navbar(props) {
   console.log(props.props)
   return (
-  <nav className="navbar navbar-expand-lg bg-body-tertiary ">
+  <nav className="navbar navbar-expand-lg bg-body-tertiary " >
     <div className="container-fluid fw-bold">
       
       <button
@@ -23,17 +23,17 @@ export default function Navbar(props) {
 
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav mx-auto mx-5 px-5" >
-          <a className="nav-link mx-5 px-5" aria-current="page" href="/" style={{backgroundColor: (props.props==="Home")?"green":"inherit"}}>
-            <FaHome  style={{width:50, color:"red"}}/>Home
+          <a className="nav-link mx-5 px-5" aria-current="page" href="/" style={{backgroundColor: (props.props==="Home")?"rgb(94, 177, 183)":"inherit"}}>
+            <FaHome  style={{width:50}} className="imp"/>Home
           </a>
-          <a className="nav-link mx-5 px-5" href="/About" style={{backgroundColor: (props.props==="About")?"green":"inherit"}}>
-            <FaUser  style={{width:50, color:"red"}}/>About
+          <a className="nav-link mx-5 px-5" href="/About" style={{backgroundColor: (props.props==="About")?"rgb(94, 177, 183)":"inherit"}}>
+            <FaUser  style={{width:50}} className="imp"/>About
           </a>
-          <a className="nav-link mx-5 px-5" href="/Project" style={{backgroundColor: (props.props==="Project")?"green":"inherit"}}>
-            <FaFolderOpen  style={{width:50, color:"red"}}/>Project
+          <a className="nav-link mx-5 px-5" href="/Project" style={{backgroundColor: (props.props==="Project")?"rgb(94, 177, 183)":"inherit"}}>
+            <FaFolderOpen  style={{width:50}} className="imp"/>Project
           </a>
-          <a className="nav-link mx-5 px-5" href="/Contact" style={{backgroundColor: (props.props==="Contact")?"green":"inherit"}}>
-            <IoChatbubbles  style={{width:50, color:"red"}}/> Contact
+          <a className="nav-link mx-5 px-5" href="/Contact" style={{backgroundColor: (props.props==="Contact")?"rgb(94, 177, 183)":"inherit"}}>
+            <IoChatbubbles  style={{width:50}} className="imp"/> Contact
           </a>
           
         </div>
