@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { MdAddCall } from "react-icons/md";
 import "../styles/G.css"
 
-function Page() {
+export default function Page() {
   return (
     <div>
       <Navbar props="Contact"/>
@@ -45,5 +45,3 @@ function Page() {
     </div>
   )
 }
-
-export default page
