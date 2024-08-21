@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Timeline from "../components/Timeline";
 
 
-export default function page() {
+export default function Page() {
   return (
     <div>
 

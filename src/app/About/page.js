@@ -4,7 +4,7 @@ import Timeline from '../components/Timeline'
 import Progress from '../components/Progress'
 import ProgressRounded from '../components/ProgressRounded'
 import { FaCrown } from "react-icons/fa";
-function page() {
+function Page() {
   return (
     <div>
       <Navbar props="About"/>

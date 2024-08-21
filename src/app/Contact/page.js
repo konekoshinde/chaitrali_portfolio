@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { MdAddCall } from "react-icons/md";
 import "../styles/G.css"
 
-function page() {
+function Page() {
   return (
     <div>
       <Navbar props="Contact"/>
