@@ -4,15 +4,16 @@ function Info() {
   return (
     <div className="card p-5 m-lg-5 border border-2 border-black-50 rounded " >
         <div className="row g-0" >
-            <div className="col-md-8 mb-5 mx-auto p-5" >
+            <div className="col-lg-8 mb-5 mx-auto p-5" >
             <div className="card-body ">
-                <h5 className="card-title fw-bolder fs-2 text-md-start text-center">Hello my name is <span className="fst-italic imp">Chaitrali Shinde</span></h5>
+                <h5 className="card-title fw-bolder fs-2 text-md-start text-center fs-6 fs-lg-3">Hello my name is <span className="fst-italic imp">Chaitrali Shinde</span></h5>
                 <br/>
-                <p className="card-text text-white-50" >
+                <p className="card-text text-white-50 fs-6" >
                 I am a Competitive programmer with over 50 contests and has secured rankings in the top 5% medium division contests. Also a hackathon enthusiasts. Coming from a tier 2 college, I have made project achieving top 2% score among college peers. I have skills in software engineering, communication, and quick learning.  
                 </p>
                 <br/>
                 <br/>
+                
                 <a className=" imp p-2 bg-secondary " href="https://drive.google.com/file/d/16IsmkAbQq1A68oo_CF_2xOGrHwcB5up2/view?usp=drive_link" target="_blank">Resume</a>
                 
             </div>
