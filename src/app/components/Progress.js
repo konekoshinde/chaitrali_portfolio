@@ -3,7 +3,7 @@ import '../styles/G.css'
 
 export default function Progress(props){
     return(
-      <div className='my-5'>
+      <div className='mb-5 mx-auto'>
         <div>{props.skillName}</div>
         <div
         className="progress"

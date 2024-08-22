@@ -1,42 +1,90 @@
 'use client'
 import { useState } from "react";
 
-import Navbar from "./components/Navbar";
+
 import "./styles/G.css"
+import Info from "./components/Info";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Project from "./components/Project";
+import { FaHome } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
+import { IoChatbubble } from "react-icons/io5";
+import { FaFolderOpen } from "react-icons/fa";
 
 export default function Home() {
   
-  
-  
   return (
     <div>
-    <Navbar props="Home"/>
-    <div>
+      <nav className="navbar navbar-expand-lg bg-dark fixed-top my-2" style={{height:"2rem"}}>
+        <div className="container-fluid">
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbarOffcanvasLg"
+          aria-controls="navbarOffcanvasLg"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon" />
+        </button>
 
-    </div>
-    <div >
-        <div className="card m-5 p-5" >
-        <div className="row g-0">
-            <div className="col-md-8">
-            <div className="card-body m-md-5">
-                <h5 className="card-title fw-bolder fs-2">Hello my name is <span className="fst-italic imp">Chaitrali Shinde</span></h5>
-                <br/>
-                <p className="card-text text-white-50" >
-                I am a Competitive programmer with over 50 contests and has secured rankings in the top 5% medium division contests. Also a hackathon enthusiasts. Coming from a tier 2 college, I have made project achieving top 2% score among college peers. I have skills in software engineering, communication, and quick learning.  
-                </p>
-                <br/>
-                <br/>
-                <a className=" me-5 bg-white p-2" href="https://drive.google.com/file/d/16IsmkAbQq1A68oo_CF_2xOGrHwcB5up2/view?usp=drive_link" target="_blank">Resume</a>
-                <a href="/About" >More</a>
-            </div>
-            </div>
+        <div
+        className="offcanvas offcanvas-start"
+        tabIndex={-1}
+        id="navbarOffcanvasLg"
+        aria-labelledby="navbarOffcanvasLgLabel"
+        >
+        <div className="offcanvas-header">
+          <button
+            type="button"
+            className="btn-close m-0 "
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          />
+        </div>
+        <div className="offcanvas-body">
+          <ul className="navbar-nav justify-content-around flex-grow-1 pe-3">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#Home">
+              <FaHome style={{width:50}} className="imp"/>Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#About">
+              <FaUser style={{width:50}} className="imp"/>About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Project">
+              <FaFolderOpen  style={{width:50}} className="imp"/>Projects
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Contact">
+              <IoChatbubble style={{width:50}} className="imp"/>Contact
+              </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-            <div className="col-md-4">
-            <img src="profile.jpg" width={500} className="img-fluid glow" alt="..." />
-            </div>
-        </div>
-        </div>
-    </div>
+    <a id="Home">
+    <Info/>
+    </a>
+
+    <a id="About">
+    <About/>
+    </a>
+    <a id="Project">
+    <Project/>
+    </a>
+    <a id="Contact">
+    <Contact/>
+    </a>
+
     </div>
   );
 }

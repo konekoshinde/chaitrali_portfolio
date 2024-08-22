@@ -16,7 +16,7 @@ const ProgressProvider = ({ valueStart, valueEnd, children }) => {
 function ProgressRounded(props) {
     const value=props.Number
   return (
-    <div style={{width:"10rem"}} className='pb-5 text-center '>
+    <div style={{width:"10rem"}} className='mx-auto text-center '>
         <div className='bg-secondary text-white m-2'>{props.skillName}</div>
       <ProgressProvider valueStart={0} valueEnd={value}>
           {(value) => <CircularProgressbar 

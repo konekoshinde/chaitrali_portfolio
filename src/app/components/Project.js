@@ -1,20 +1,16 @@
 'use client';
 
-import Navbar from "../components/Navbar";
-import Timeline from "../components/Timeline";
+import Timeline from "./Timeline";
 
 
-export default function Page() {
+export default function Project() {
   return (
-    <div>
+    <div className="p-lg-5 m-lg-5 border border-2 border-black-50 rounded mb-5 py-5">
 
-        <Navbar props="Project"
-        Time="Jul, 2024"
-        />
 
         <div className="container">
         <div className="d-flex flex-column justify-content-around m-3">
-        
+        <h2 className='imp'>Projects</h2>
         <Timeline
             title="UWSN (underwater wireless sensor network)"
             subtitle="machine learning, K-Means Clustering, Q-learning, Python"
