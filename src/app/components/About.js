@@ -21,22 +21,22 @@ export default function About() {
         
         <div className='d-flex flex-column justify-content-evenly mx-2' style={{width:"50%"}}>
           <div className="d-flex flex-row justify-content-between"  data-aos-duration="2000" data-aos="flip-left">
-          <div  className='m-2 p-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Machine Learning</div>
-          <div  className='m-2 p-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Github</div>
-          <div className='m-2 p-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Docker</div>
-          <div className='m-2 p-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Software Engg</div>
+          <div  className='m-2 p-1 p-md-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Machine Learning</div>
+          <div  className='m-2 p-1 p-md-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Github</div>
+          <div className='m-2 p-1 p-md-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Docker</div>
+          <div className='m-2 p-1 p-md-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Software Engg</div>
           </div>
           <div className="d-flex flex-row justify-content-between"  data-aos-duration="2000" data-aos="flip-right">
-          <div className='m-2 p-2 bg-secondary text-white text-center' style={{width:"30rem"}}>operating system</div>
-          <div className='m-2 p-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Kafka</div>
-          <div className='m-2 p-2 bg-secondary text-white text-center' style={{width:"30rem"}}>OOPS</div>
-          <div className='m-2 p-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Compiler design</div>
+          <div className='m-2 p-1 p-md-2 bg-secondary text-white text-center' style={{width:"30rem"}}>operating system</div>
+          <div className='m-2 p-1 p-md-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Kafka</div>
+          <div className='m-2 p-1 p-md-2 bg-secondary text-white text-center' style={{width:"30rem"}}>OOPS</div>
+          <div className='m-2 p-1 p-md-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Compiler design</div>
           </div>
           <div className="d-flex flex-row justify-content-between"  data-aos-duration="2000" data-aos="flip-left">
-          <div className='m-2 p-2 bg-secondary text-white text-center' style={{width:"30rem"}}>computer network</div>
-          <div className='m-2 p-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Latex</div>
-          <div className='m-2 p-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Html/CSS</div>
-          <div className='m-2 p-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Tailwind CSS</div>
+          <div className='m-2 p-1 p-md-2 bg-secondary text-white text-center' style={{width:"30rem"}}>computer network</div>
+          <div className='m-2 p-1 p-md-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Latex</div>
+          <div className='m-2 p-1 p-md-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Html/CSS</div>
+          <div className='m-2 p-1 p-md-2 bg-secondary text-white text-center' style={{width:"30rem"}}>Tailwind CSS</div>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ function Info() {
   return (
     <div className="card p-5 m-lg-5 border border-2 border-black-50 rounded " >
         <div className="row g-0" >
-            <div className="col-md-8 mb-5" style={{width:"50rem"}} >
+            <div className="col-md-8 mb-5 mx-auto p-5" >
             <div className="card-body ">
                 <h5 className="card-title fw-bolder fs-2 text-md-start text-center">Hello my name is <span className="fst-italic imp">Chaitrali Shinde</span></h5>
                 <br/>
@@ -13,7 +13,7 @@ function Info() {
                 </p>
                 <br/>
                 <br/>
-                <a className="me-5 imp p-2 bg-secondary" href="https://drive.google.com/file/d/16IsmkAbQq1A68oo_CF_2xOGrHwcB5up2/view?usp=drive_link" target="_blank">Resume</a>
+                <a className=" imp p-2 bg-secondary " href="https://drive.google.com/file/d/16IsmkAbQq1A68oo_CF_2xOGrHwcB5up2/view?usp=drive_link" target="_blank">Resume</a>
                 
             </div>
             </div>
