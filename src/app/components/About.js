@@ -12,11 +12,11 @@ export default function About() {
         <ul style={{width:"20rem"}} className=''><h2 className="imp mt-5">Technical Skills</h2>
         <Progress skillName="NextJS" Number="75"/>
         <Progress skillName="ReactJs" Number="70"/>
-        <Progress skillName="C++" Number="60"/>
-        <Progress skillName="MongoDB" Number="55"/>
-        <Progress skillName="NodeJs" Number="50"/>
-        <Progress skillName="MySql" Number="45"/>
-        <Progress skillName="Python" Number="40"/>
+        <Progress skillName="C++" Number="70"/>
+        <Progress skillName="MongoDB" Number="75"/>
+        <Progress skillName="NodeJs" Number="70"/>
+        <Progress skillName="MySql" Number="85"/>
+        <Progress skillName="Python" Number="50"/>
         </ul>
         
         <div className='d-flex flex-column justify-content-evenly mx-2' style={{width:"50%"}}>
@@ -45,7 +45,7 @@ export default function About() {
             <ProgressRounded skillName="Communication" Number="70" style={{}} />
             <ProgressRounded skillName="Learning" Number="80" style={{}} />
             <ProgressRounded skillName="TeamWork" Number="70" style={{}} />
-            <ProgressRounded skillName="Implementation" Number="50" style={{}} />
+            <ProgressRounded skillName="Implementation" Number="80" style={{}} />
           </div>
           <br/>
           <br/>
